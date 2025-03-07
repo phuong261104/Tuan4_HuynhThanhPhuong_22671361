@@ -1,14 +1,14 @@
-// import './App.css'
-
-import Ex2 from "./component/ex2"
+import { useEffect, useState } from "react";
+import Ex1 from "./component/ex1";
 
 function App() {
 
+
   return (
     <>
-      <Ex2 />
+      <Ex1 />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
